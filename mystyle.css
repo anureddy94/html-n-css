@@ -1,0 +1,48 @@
+img {
+    float: right;
+   z-index:20;
+
+}
+h2::first-line {
+    background-color: yellow;
+}
+h1::before {
+    content: "hi ";
+}
+h1::after {
+    content: " bye";
+}
+.clear{
+	width: 100px;
+    height: 100px;
+    overflow: scroll;
+	clear: scroll;
+}
+.hidden {
+    visibility: hidden;
+}
+#visit {
+	background-color: lightgrey;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+ol>li {
+  background-color: lightgrey;
+}
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
